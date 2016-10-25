@@ -1,0 +1,32 @@
+body {
+  height: 100%;
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #34495e;
+}
+
+#picker {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#colorbox {
+  width : 200px;
+  height: 70px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #eee;
+}
+
+#footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #34495e;
+}

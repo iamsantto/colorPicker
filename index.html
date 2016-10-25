@@ -8,10 +8,17 @@
     <link rel="icon" href="includes/images/fav.png">
   </head>
   <body ng-app="colorPicker" ng-controller="mainCtrl">
-    
-
-
-
+    <section layout="column" layout-align="center center" flex>
+      <section id="header" layout="row" layout-align="center center" flex>
+        Header
+      </section>
+      <section id="picker" ng-style="selectedColor" layout="row" layout-align="center center" flex layout-wrap>
+        <section ng-repeat="color in colors" ng-style="{backgroundColor: color}" id="colorbox" ng-click="selectColor(color)"></section>
+      </section>
+      <section id="footer" layout="row" layout-align="center center" flex>
+        Footer
+      </section>
+    </section>
     <script src="bower_components/angular/angular.min.js" charset="utf-8"></script>
     <script src="bower_components/angular-animate/angular-animate.min.js" charset="utf-8"></script>
     <script src="bower_components/angular-aria/angular-aria.min.js" charset="utf-8"></script>
