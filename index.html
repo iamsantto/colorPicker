@@ -10,13 +10,13 @@
   <body ng-app="colorPicker" ng-controller="mainCtrl">
     <section layout="column" layout-align="center center" flex>
       <section id="header" layout="row" layout-align="center center" flex>
-        Header
+        <span class="md-display-1">Color Picker</span>
       </section>
       <section id="picker" ng-style="selectedColor" layout="row" layout-align="center center" flex layout-wrap>
         <section ng-repeat="color in colors" ng-style="{backgroundColor: color}" id="colorbox" ng-click="selectColor(color)"></section>
       </section>
       <section id="footer" layout="row" layout-align="center center" flex>
-        Footer
+        <span>iamsantto</span>
       </section>
     </section>
     <script src="bower_components/angular/angular.min.js" charset="utf-8"></script>
