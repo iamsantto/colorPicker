@@ -1,0 +1,15 @@
+{
+  "name": "colorPicker_iamsantto",
+  "homepage": "https://github.com/iamsantto/colorPicker",
+  "description": "Color Picker",
+  "main": "index.html",
+  "keywords": [
+    "Color",
+    "picker",
+    "iamsantto"
+  ],
+  "authors": [
+    "iamsantto"
+  ],
+  "license": "none"
+}
